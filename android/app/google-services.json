@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "903105807881",
+    "project_id": "test-vimes-82aa9",
+    "storage_bucket": "test-vimes-82aa9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903105807881:android:f0564b6e9284a2c9eedad8",
+        "android_client_info": {
+          "package_name": "com.example.base"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEzo97SKASq1sr-a0EPYMfcc7tKwVfTak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

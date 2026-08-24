@@ -1,0 +1,1 @@
+enum Flavor { develop, qa, staging, production }

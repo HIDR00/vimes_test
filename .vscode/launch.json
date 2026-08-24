@@ -1,0 +1,184 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Develop",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "develop",
+                "--dart-define",
+                "FLAVOR=develop",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Debug QA",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "qa",
+                "--dart-define",
+                "FLAVOR=qa",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Debug Staging",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "staging",
+                "--dart-define",
+                "FLAVOR=staging",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Debug Production",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "production",
+                "--dart-define",
+                "FLAVOR=production",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Profile Develop",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "develop",
+                "--dart-define",
+                "FLAVOR=develop",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Profile QA",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "qa",
+                "--dart-define",
+                "FLAVOR=qa",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Profile Staging",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "staging",
+                "--dart-define",
+                "FLAVOR=staging",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Profile Production",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "production",
+                "--dart-define",
+                "FLAVOR=production",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Release Develop",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "develop",
+                "--dart-define",
+                "FLAVOR=develop",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Release QA",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "qa",
+                "--dart-define",
+                "FLAVOR=qa",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Release Staging",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "staging",
+                "--dart-define",
+                "FLAVOR=staging",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        },
+        {
+            "name": "Release Production",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--flavor",
+                "production",
+                "--dart-define",
+                "FLAVOR=production",
+                "--dart-define",
+                "APP_API_URL=https://huge-grizzly-renewing.ngrok-free.app"
+            ]
+        }
+    ]
+}
